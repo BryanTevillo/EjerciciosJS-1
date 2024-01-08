@@ -30,6 +30,28 @@ console.log(numeroAureo);
 console.log(pi);
 console.log(piNegativo);
 
+//String
+var saludo = "Hola";
+var despedida = "Adiós";
+var plantilla = `Texto con plantilla`;
+let lenguajeProgramacion = "JavaScript";
+let pais = "Mexico";
+const cadenaUnicode = "Cadena con caracteres especiales: \u00A9";
+const cadenaLarga = "Una cadena más larga para demostrar longitud";
+const cadenaVacia = "";
+const cadenaNumerica = "12345";
+const cadenaBooleana = "true";
+//Representacion en consola
+console.log(saludo);
+console.log(despedida);
+console.log(plantilla);
+console.log(lenguajeProgramacion);
+console.log(pais);
+console.log(cadenaUnicode);
+console.log(cadenaLarga);
+console.log(cadenaVacia);
+console.log(cadenaNumerica);
+console.log(cadenaBooleana);
 /*
  * Declarar variables numericas y realizar las operaciones aritmeticas basicas
  *      -suma
