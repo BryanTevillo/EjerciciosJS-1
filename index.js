@@ -87,6 +87,7 @@ console.log(negacion);
  *      -division
  *
  */
+
 //Operaciones aritmeticas con las variables numericas
 
 //SUMA
@@ -109,6 +110,28 @@ console.log(division);
  * Declarar variables que concatenen cadenas de texto
  *      -5 mensajes diferentes en pantalla, sin limite de palabras.
  *
+ */
+//Mensaje N°1
+const saludoyDespedida = saludo + " " + despedida;
+console.log(saludoyDespedida);
+
+//Mensaje N°2
+const textoNumerioBoleano = cadenaNumerica + " " + cadenaBooleana;
+console.log(textoNumerioBoleano);
+
+//Mensaje N°3
+const textoPaisPlantilla = pais + " " + plantilla;
+console.log(textoPaisPlantilla);
+
+//Mensaje N°4
+const textoCadenaLargaBooleano = cadenaLarga + " " + cadenaBooleana;
+console.log(textoCadenaLargaBooleano);
+
+//Mensaje N°5
+const textoTodo = saludo + despedida + plantilla + lenguajeProgramacion + pais + cadenaBooleana + cadenaLarga + cadenaNumerica + cadenaUnicode + cadenaVacia;
+console.log(textoTodo);
+
+/*
  * Declarar 5 variables y convertirlas a otro tipo de dato
  *
  *  CONSIDERACIONES: poner en practica las mejores practicas para declaracion de variables.
