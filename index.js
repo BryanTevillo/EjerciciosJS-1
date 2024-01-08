@@ -137,3 +137,23 @@ console.log(textoTodo);
  *  CONSIDERACIONES: poner en practica las mejores practicas para declaracion de variables.
  * Imprimir los resultados en pantalla con un console.log()
  */
+
+//Conversion N°1
+let cadenaToNumber = Number(cadenaNumerica);
+console.log(cadenaToNumber);
+
+//Conversion N°2
+var cadenaToBoleana = Boolean(cadenaBooleana);
+console.log(cadenaToBoleana);
+
+//Conversion N°3
+const boooleanToNumber = Number(esDia);
+console.log(boooleanToNumber);
+
+//Conversion N°4
+let numberToString = String(pi);
+console.log(numberToString);
+
+//Conversion N°5
+const booleanToString = String(esMayorIgual);
+console.log(booleanToString);
