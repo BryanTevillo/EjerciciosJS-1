@@ -41,11 +41,13 @@ function voltajeOhm(resistencia, corriente) {
     return `El voltaje de la resistencia es : ${resistencia * corriente}`;
 }
 
+//! funcion volumen de una esfera
 function volumenEsfera(radio) {
     return `El volumen de la esfera es: ${(radio ** 3 * 4 * pi) / 3}`;
 }
 
 console.log("********Resultados funciones con nombre**************");
+
 //? impresion por consola de las funciones con nombre
 console.log(perimetroCirculo(3));
 console.log(areaRectangulo(10, 5));
@@ -56,15 +58,27 @@ console.log(volumenEsfera(8));
 
 //*************** Funciones flecha realizando los ejercicios ***********************
 
+//!funcion perimetro de un circulo
 const flechaPerimetroCirculo = (radio) => `El perimetro del circulo es: ${2 * pi * radio}`;
+
+//!funcion area de un rectangulo
 const flechaAreaRectangulo = (largo, alto) => `El area del rectangulo es: ${largo * alto}`;
+
+//! funcion cuadrado de un numero
 const flechaCuadradoNumero = (numero) => `El cuadrado del numero ${numero} es: ${numero ** 2}`;
+
+//!funcion  conversion de grados celsius a farenheit
 const flechaCelciusFarenheit = (celcius) => `La conversion de ${celcius} grados celcius a Farenheit es: ${celcius * 1.8 + 32} `;
+
+//! funcion valor del voltaje dadas la resistencia y la corriente
 const flechaVoltajeOhm = (resistencia, corriente) => `El voltaje de la resistencia es : ${resistencia * corriente}`;
+
+//! funcion volumen de una esfera
 const flechaVolumenEsfera = (radio) => `El volumen de la esfera es: ${(radio ** 3 * 4 * pi) / 3}`;
 
 console.log("***********************Resultados funciones flecha*******************");
-//? impresion por consola de las funciones con nombre
+
+//? impresion por consola de las funciones con flecha
 console.log(flechaPerimetroCirculo(3));
 console.log(flechaAreaRectangulo(10, 5));
 console.log(flechaCuadradoNumero(5));
