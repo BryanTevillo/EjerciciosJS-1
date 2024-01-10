@@ -7,16 +7,16 @@ Ejercicio para esta sesion
 Declarar 10 variables de cada tipo de dato sin tomar en cuenta objetos, arrays y null
 Pueden variar entre las palabras reservadas var, let y const
 
--             number
--             string
--             boolean
+-                 number
+-                 string
+-                 boolean
 
 Declarar variables numericas y realizar las operaciones aritmeticas basicas
 
--             suma
--             resta
--             multiplicacion
--             division
+-                 suma
+-                 resta
+-                 multiplicacion
+-                 division
 
 Declarar variables que concatenen cadenas de texto
 -5 mensajes diferentes en pantalla, sin limite de palabras.
@@ -66,7 +66,15 @@ Ejercicios para esta sesion 09-01-2024
 -   en el caso de que no sea un promedio aprobatorio imprimir reporobado
 -
 -   Consideraciones: utilizar la estructura if-else
+
+### Ejercicio 3
+
 -
+-   Desarrolla un programa que evalue si un numero es primo
+-
+-   Debe recibir como parametro un numero aleatorio
+-
+-   Consideraciones: utilizar la estructura if-else
 
 ### Ejercicio 4
 

@@ -33,6 +33,29 @@ const promedioAlumno = (calificacion1, califiacion2, califiacion3, califiacion4)
 
 console.log(promedioAlumno(5, 7, 3, 9, 10));
 
+/** Ejercicio 3
+ *
+ * Desarrolla un programa que evalue si un numero es primo
+ *
+ * Debe recibir como parametro un numero aleatorio
+ *
+ * Consideraciones: utilizar la estructura if-else
+ */
+const primo = (numero) => {
+    let divisorEntero = 0;
+    for (let index = 1; index <= numero; index++) {
+        if (numero % index === 0) {
+            divisorEntero++;
+        }
+    }
+    if (divisorEntero === 2) {
+        return `El numero ${numero} SI es primo`;
+    } else {
+        return `El numero ${numero} NO es primo`;
+    }
+};
+console.log(primo(Math.floor(Math.random() * 100)));
+
 /** Ejercicio 4
  *
  * Desarrolla un programa que evalue si un numero es divisible
