@@ -92,21 +92,21 @@ console.log(divisble4O9(4));
  */
 
 const calculadora = (operacion, numero1, numero2) => {
-    switch (operacion.toLowerCase()) {
-        case "suma":
+    switch (operacion) {
+        case 1:
             return numero1 + numero2;
-        case "resta":
+        case 2:
             return numero1 - numero2;
-        case "multiplicacion":
+        case 3:
             return numero1 * numero2;
-        case "division":
+        case 4:
             return numero1 / numero2;
         default:
             return "Operacion desconocida";
     }
 };
 
-console.log(calculadora("multiplicacion", 10, 20));
+console.log(calculadora(3, 10, 20));
 
 /** Ejercicio 7
  *
@@ -158,6 +158,21 @@ console.log(peliculas("comedia"));
  * Segun sea la opcion indicada, imprimir en pantalla la accion a realizar
  * Utilizar if/else
  */
+const cajeroATM = (operacion) => {
+    if (operacion === 1) {
+        return "Seleccionaste la opcion Retirar dinero";
+    } else if (operacion === 2) {
+        return "Seleccionaste la opcion Transferencia";
+    } else if (operacion === 3) {
+        return "Seleccionaste la opcion Deposito";
+    } else if (operacion === 4) {
+        return "Seleccionaste la opcion Pago de servicios";
+    } else {
+        return "Operacion desconocida";
+    }
+};
+
+console.log(cajeroATM(2));
 
 /** Ejercicio 9
  *
@@ -176,6 +191,25 @@ console.log(peliculas("comedia"));
  *
  */
 
+const conversorDivisas = (cantidad, tipoDeCambio) => {
+    switch (tipoDeCambio) {
+        case 1:
+            return `${cantidad} MXN es igual a ${cantidad * 0.059} USD`;
+        case 2:
+            return `${cantidad} MXN es igual a ${cantidad * 0.054} EUR`;
+        case 3:
+            return `${cantidad} MXN es igual a ${cantidad * 8.51} JPY`;
+        case 4:
+            return `${cantidad} MXN es igual a ${cantidad * 0.046} GBP`;
+        case 5:
+            return `${cantidad} MXN es igual a ${cantidad * 0.05} CHF`;
+        default:
+            return "Desconozco ese tipo de cambio";
+    }
+};
+
+console.log(conversorDivisas(100, 1));
+
 /** Ejercicio 10
  *
  * Realizar un programa que calcule un descuento del 10% a un producto si se ingresa el codigo
@@ -189,3 +223,13 @@ console.log(peliculas("comedia"));
  * Consideracion: utilizar la estructura if-else
  *
  */
+
+const descuento = (precio, codigo) => {
+    if (codigo === "DESCUENTO10") {
+        return `El precio del producto es ${precio - precio * 0.1}`;
+    } else {
+        return `El codigo es incorrecto el precio del producto es: ${precio}`;
+    }
+};
+
+console.log(descuento(100, "DESCUENTO10"));
